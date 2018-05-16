@@ -10,6 +10,6 @@ func main() {
 	log.Fatal(csync.Serve(csync.Service{
 		Name:     "rock",
 		Port:     "5000",
-		Redirect: "http://localhost:4000",
+		Redirect: "glam",
 	}))
 }
